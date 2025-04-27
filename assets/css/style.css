@@ -95,6 +95,25 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+.border {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.btn-events:hover {
+    background-color: var(--highlight-color);
+    color: white
+}
+
+.btn-events {
+    border: 5px solid var(--highlight-color);
+    padding: 10px 30px;
+    color: var(--highlight-color);
+    font-size: 1.2rem;
+}
+
 /* Game library cards */
 
 #new-games .card,
@@ -135,6 +154,10 @@ h2 {
 }
 
 #contact .table-dark * {
+    background-color: transparent;
+}
+
+.table {
     background-color: transparent;
 }
 
